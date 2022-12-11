@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { toast } from 'react-toastify';
-import myPhoto from '../../../Assets/myPhoto.jpg'
+import myPhoto2 from '../../../Assets/myPhoto2.jpg'
 
 const EmailForm = () => {
     const form = useRef();
@@ -53,7 +53,7 @@ const EmailForm = () => {
                         </div>
 
                         <div className="mt-12 lg:flex lg:mt-0 lg:flex-col lg:items-center lg:w-1/2 lg:mx-10">
-                            <img className="hidden object-cover mx-auto rounded-full lg:block shrink-0 w-72 h-72" src={myPhoto} alt="" />
+                            <img className="hidden object-cover mx-auto rounded-full lg:block shrink-0 w-72 h-72" src={myPhoto2} alt="" />
 
                             <div className="mt-6 space-y-8 md:mt-8">
                                 <p className="flex items-start -mx-2">

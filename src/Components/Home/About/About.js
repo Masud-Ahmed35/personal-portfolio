@@ -1,13 +1,13 @@
 import React from 'react';
-import myPhoto from '../../../Assets/myPhoto.jpg'
-import { AiOutlineMail, AiOutlineHome, AiFillLinkedin } from "react-icons/ai";
+import myPhoto2 from '../../../Assets/myPhoto2.jpg'
+import { AiOutlineMail, AiOutlineHome, AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 
 const About = () => {
     return (
         <div className='mt-11'>
             <div className="hero">
-                <div className="flex flex-col lg:flex-row">
-                    <img src={myPhoto} className="lg:max-w-lg h-full rounded-lg shadow-2xl" alt='' />
+                <div className="flex flex-col lg:flex-row-reverse">
+                    <img src={myPhoto2} className="lg:max-w-md h-full rounded-lg shadow-2xl" alt='' />
                     <div className='mt-5 mx-5 lg:w-[50%] lg:mx-auto'>
                         <h1 className="text-4xl font-bold">About Me</h1>
                         <p className="py-6 text-justify">
@@ -33,6 +33,16 @@ const About = () => {
                             >
                                 <span><AiFillLinkedin className='h-5 w-7 text-rose-400 font-thin' /></span>
                                 <span className='text-gray-500 '>LinkedIn Profile</span>
+                            </a>
+                        </p>
+                        <p className='mt-3'>
+                            <a href="https://github.com/Masud-Ahmed35"
+                                target='_blank'
+                                rel='noreferrer'
+                                className='flex items-center gap-3'
+                            >
+                                <span><AiFillGithub className='h-5 w-7 text-rose-400 font-thin' /></span>
+                                <span className='text-gray-500 '>GitHub Link</span>
                             </a>
                         </p>
                         <p className='flex items-center gap-3 mt-3'>

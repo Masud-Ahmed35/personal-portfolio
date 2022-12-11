@@ -1,5 +1,6 @@
 import React from 'react';
 import About from './About/About';
+import Education from './Education/Education';
 import EmailForm from './EmailForm/EmailForm';
 import Hero from './Hero/Hero';
 import Projects from './Projects/Projects';
@@ -10,6 +11,7 @@ const Home = () => {
         <div>
             <Hero />
             <About />
+            <Education />
             <Skills />
             <Projects />
             <EmailForm />

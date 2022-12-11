@@ -79,6 +79,11 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
+            <div className='flex justify-center items-center mt-14'>
+                <a href="https://github.com/Masud-Ahmed35" rel='noreferrer' target='_blank'>
+                    <button className='btn btn-info px-11 bg-gradient-to-r from-error to-info border-0'>See All</button>
+                </a>
+            </div>
         </div>
     );
 };
