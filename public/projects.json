@@ -1,0 +1,148 @@
+[
+    {
+        "_id": 1,
+        "name": "Recycled-Bikes",
+        "server": "https://github.com/Masud-Ahmed35/recycled-bikes-server-side",
+        "client": "https://github.com/Masud-Ahmed35/recycled-bikes-client-side",
+        "live": "https://recycled-bikes.web.app/",
+        "description": "It is an used product selling ab application. Here, buyer can purchase a product also modify his products. And seller can add products, also manipulate his products. And admin role is that, he can add category manipulate buyer or seller.",
+        "image": [
+            "../public/images/p1i1.png",
+            "../public/images/p1i2.png",
+            "../public/images/p1i3.png"
+        ],
+        "feature": [
+            "It has 3 different dashboard for Admin, Seller and Buyer.",
+            "For authentication system used google firebase.",
+            "Stripe is used for payment gateway.",
+            "Client-Side is hosted on firebase and Server-Side on vercel.",
+            "Responsive for Desktop, Tablet and Mobile devices."
+        ],
+        "technologies": [
+            "HTML",
+            "CSS",
+            "Tailwind",
+            "React.js",
+            "Node.js",
+            "Express.js",
+            "Firebase",
+            "Stripe",
+            "Mongodb"
+        ]
+    },
+    {
+        "_id": 2,
+        "name": "Professor 360",
+        "server": "https://github.com/Masud-Ahmed35/professor-360-server-side",
+        "client": "https://github.com/Masud-Ahmed35/professor-360-client-side",
+        "live": "https://professor360-13eac.web.app/",
+        "description": "This is online based review-given web application. Here, you can choose a service and you may give your review. In this website, you can purchase a service which we will provide. On the basis of the quality of our service, you can give your review.",
+        "image": [
+            "../public/images/p2i1.png",
+            "../public/images/p2i2.png",
+            "../public/images/p2i3.png"
+        ],
+        "feature": [
+            "You can review every course for free.",
+            "You can insert, update delete your reviews.",
+            "Used firebase for authentication system.",
+            "MERN stack project hosted on firebase and vercel.",
+            "Responsive for Desktop, Tablet and Mobile devices."
+        ],
+        "technologies": [
+            "HTML",
+            "CSS",
+            "Tailwind",
+            "React.js",
+            "Node.js",
+            "Express.js",
+            "Firebase",
+            "Mongodb"
+        ]
+    },
+    {
+        "_id": 3,
+        "name": "Secret Lab",
+        "server": "https://github.com/Masud-Ahmed35/secret-lab-server-side",
+        "client": "https://github.com/Masud-Ahmed35/secret-lab-client-side",
+        "live": "https://secret-web-1e169.web.app/",
+        "description": "This is online based quality learning web application. Here, you can choose a course what you want, there are several courses about web programming. You can select a course to explore this and also it will be helpful for your future career.",
+        "image": [
+            "../public/images/p3i1.png",
+            "../public/images/p3i2.png",
+            "../public/images/p3i3.png"
+        ],
+        "feature": [
+            "It is an e-learning web application.",
+            "You can edit & update your profile.",
+            "User friendly & fully responsive.",
+            "Used firebase for authentication.",
+            "It is a MERN Stack project"
+        ],
+        "technologies": [
+            "HTML",
+            "CSS",
+            "Tailwind",
+            "React.js",
+            "Node.js",
+            "Express.js",
+            "Firebase",
+            "Mongodb"
+        ]
+    },
+    {
+        "_id": 4,
+        "name": "Quizzes Lab",
+        "client": "https://github.com/Masud-Ahmed35/quizzes-lab",
+        "live": "https://quizzes-lab.netlify.app/",
+        "description": "This is an online based educational project, Where anyone can take an participation for quiz test on several topics on web development.",
+        "image": [
+            "../public/images/p4i1.png",
+            "../public/images/p4i2.png",
+            "../public/images/p4i3.png"
+        ],
+        "feature": [
+            "You can participate a quiz for free.",
+            "It is best for web developer.",
+            "You can take participate as much you want.",
+            "You can view your performance immediately.",
+            "You can see yor full statistics.",
+            "User friendly and fully responsive"
+        ],
+        "technologies": [
+            "HTML",
+            "CSS",
+            "Tailwind",
+            "React.js",
+            "Node.js",
+            "Express.js",
+            "Firebase",
+            "Mongodb"
+        ]
+    },
+    {
+        "_id": 5,
+        "name": "Absolute Fitness",
+        "client": "https://github.com/Masud-Ahmed35/absolute-fitness-club",
+        "live": "https://absolute-fitness-club.netlify.app/",
+        "description": "This web application is for absolute fitness. There are several task for gym with time. You may select on option for gym, also you get some information like rest time, total gym time etc.",
+        "image": [
+            "../public/images/p5i1.png",
+            "../public/images/p5i2.png",
+            "../public/images/p5i3.png"
+        ],
+        "feature": [
+            "It is gym instruction Web application",
+            "You can see perfect time for every item",
+            "You can calculate individual time for a gym",
+            "You will get total gym time",
+            "You can set a rest time"
+        ],
+        "technologies": [
+            "HTML",
+            "CSS",
+            "Tailwind",
+            "React.js"
+        ]
+    }
+]
