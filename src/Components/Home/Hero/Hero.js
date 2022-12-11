@@ -22,7 +22,11 @@ const Hero = () => {
                         <span className='text-red-600'><Cursor cursorStyle='|' /></span>
                     </p>
                     <div className='flex gap-5 justify-center mt-10'>
-                        <button className="btn btn-warning btn-outline">View Resume</button>
+                        <a href="https://drive.google.com/file/d/1KqI7myCcUcQupUfBfAGWa0e1QsQoosbe/view?usp=sharing"
+                            rel='noreferrer'
+                            target="_blank">
+                            <button className="btn btn-warning btn-outline">View Resume</button>
+                        </a>
                         <button className="btn btn-success btn-outline">Contact Me</button>
                     </div>
                 </div>
