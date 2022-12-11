@@ -3,10 +3,10 @@ import React from 'react';
 const Skills = () => {
     return (
         <div className='mt-12'>
-            <h1 className='mb-7 font-bold text-4xl'>Skills</h1>
+            <h1 className='ml-3 mb-7 font-bold text-4xl'>Skills</h1>
             <div className='lg:flex justify-between'>
-                <div className='lg:w-[45%]'>
-                    <p className='mb-5 font-semibold text-xl text-center'>Front-End</p>
+                <div className='mx-3 lg:w-[45%]'>
+                    <p className='mb-5 font-semibold text-xl text-center'>Front-End Technologies</p>
                     <div>
                         <p>HTML: 95%</p>
                         <progress className="progress h-2 progress-secondary" value="95" max="100"></progress>
@@ -37,7 +37,7 @@ const Skills = () => {
                     </div>
                 </div>
                 <div className='lg:w-[45%]'>
-                    <p className='mb-5 font-semibold text-xl text-center'>Back-End</p>
+                    <p className='mb-5 font-semibold text-xl text-center'>Back-End Technologies</p>
                     <div className="radial-progress text-pink-800 border-2 ml-5 mt-5" style={{ "--value": "60", "--size": "8rem", "--thickness": "5px" }}>
                         <div className='text-center'>
                             <p>Node.js</p>
