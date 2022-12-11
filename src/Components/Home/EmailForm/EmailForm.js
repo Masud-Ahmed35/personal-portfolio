@@ -20,7 +20,7 @@ const EmailForm = () => {
     };
 
     return (
-        <div className='my-14'>
+        <div className='mt-14'>
             <section className="min-h-screen">
                 <div className="container px-6 py-10 mx-auto">
                     <div className="lg:flex lg:items-center lg:-mx-10">
