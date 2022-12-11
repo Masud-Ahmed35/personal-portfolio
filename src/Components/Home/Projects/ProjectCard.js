@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const ProjectCard = ({ project }) => {
+
     return (
         <div>
             <div className="card card-compact bg-base-100 shadow-xl">

@@ -1,16 +1,9 @@
 import React, { useContext } from 'react';
-import { Link } from 'react-router-dom';
-import p1 from '../../../Assets/p1.png';
-import p2 from '../../../Assets/p2.png';
-import p3 from '../../../Assets/p3.png';
-import p4 from '../../../Assets/p4.png';
-import p5 from '../../../Assets/p5.png';
 import { ProjectsContext } from '../../../Layouts/Root';
 import ProjectCard from './ProjectCard';
 
 const Projects = () => {
     const projects = useContext(ProjectsContext);
-    console.log(projects);
 
     return (
         <div className='mt-14'>
